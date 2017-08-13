@@ -27,6 +27,7 @@
             <section class="filters">
                 <h3 class="visually-hidden">Фильтр шаблонов</h3>
                     <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+                    </form>
                         <fieldset>
                             <legend>Стоимость:</legend>
                               <img src="http://placehold.it/150x50" alt="Ценовой бегунок">
@@ -75,6 +76,65 @@
                                 </li>
                             </ul>
                         </fieldset>
-                            <input type="button" value="Показать">
+                            <button type="submit" class="filter-button button">Показать</button>
             </section>
-            
+            <section class="catalog">
+                <h3 class="visually-hidden">Список шаблонов</h3>
+                <fieldset>
+                    <legend>Сортировать:</legend>
+                        <ul>
+                            <li>по цене</li>
+                            <li>по типу</li>
+                            <li>по названию</li>
+                        </ul>
+                        <ul class="catalog-list">
+                              <li class="catalog-item">
+                                  <h4>Sedona</h4>
+                                  <img src="http://placehold.it/100x50" alt="Седона">
+                              </li>
+                              <li class="catalog-item">
+                                  <h4>Pink</h4>
+                                  <img src="http://placehold.it/100x50" alt="Розовый">
+                              </li>
+                              <li class="catalog-item">
+                                  <h4>Borodinski</h4>
+                                  <img src="http://placehold.it/100x50" alt="Бородинский">
+                              </li>
+                              <li class="catalog-item">
+                                  <h4>Mishka</h4>
+                                  <img src="http://placehold.it/100x50" alt="Мишка">
+                              </li>
+                              <li class="catalog-item">
+                                  <h4>Teacher</h4>
+                                  <img src="http://placehold.it/100x50" alt="Учитель">
+                              </li>
+                              <li class="catalog-item">
+                                  <h4>Кваст</h4>
+                                  <img src="http://placehold.it/100x50" alt="Кваст">
+                              </li>
+                        </ul>
+                        <ul class="pagination-list">
+                            <li class="pagination-item paginator-iten-current"><a href="#">1</a></li>
+                            <li class="pagination-item"><a href="#">2</a></li>
+                            <li class="pagination-item"><a href="#">3</a></li>
+                        </ul>
+                        <button type="submit" class="filter-button button">следующая</button>
+                </fieldset>
+            </section>
+            <section class="our address">
+                <img src="http://placehold.it/600x200" alt="Карта">
+            </section>
+        </main>
+        <footer class="main-footer">
+            <div class="footer-social">
+                <ul>
+                    <li><a class="social-button" href="#">В контакте</a></li>
+                    <li><a class="social-button" href="#">Фейсбук</a></li>
+                    <li><a class="social-button" href="#">Инстаграм</a></li>
+                </ul>
+            </div>
+                <b>Давайте дружить, это выгодно!</b>
+                    <p>Скидка 10% для друзей из социальных сетей</p>
+        </footer>
+    </body>
+</html>
