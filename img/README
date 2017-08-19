@@ -1,3 +1,18 @@
+.Студия {
+  font-size: 4.564px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.875;
+  text-align: left;
+  -moz-transform: matrix( 3.50541372649093,0,0,3.50541372649093,0,0);
+  -webkit-transform: matrix( 3.50541372649093,0,0,3.50541372649093,0,0);
+  -ms-transform: matrix( 3.50541372649093,0,0,3.50541372649093,0,0);
+  position: absolute;
+  left: 524.857px;
+  top: 94.872px;
+  z-index: 100;
+}
 Папка для изображений.
 
 --
