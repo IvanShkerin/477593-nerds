@@ -10,7 +10,7 @@
                 <a class="main-header-logo" href="index.html">
                     <img src="http://placehold.it/100x50" alt="Логотип Nerds">
                 </a>
-                <ul class="site-navigation">
+                <ul>
                     <li><a href="index.html">Студия</a></li>
                     <li><a href="customers.html">Клиенты</a></li>
                     <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
@@ -28,14 +28,12 @@
             <section class="filters">
                 <h3 class="visually-hidden">Фильтр шаблонов</h3>
                     <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-                    </form>
                         <fieldset>
                             <legend>Стоимость:</legend>
                             <div>
-                              <input type="checkbox" id="check1">
-                              <input type="checkbox" id="check2">
+                              <input type="checkbox" id="check1" name="ОТ">
+                              <input type="checkbox" id="check2" name="ДО">
                             </div>
-                              
                         </fieldset>
                         <fieldset>
                             <legend>Сетка:</legend>
@@ -45,11 +43,11 @@
                                         Адаптивная
                                     </li>
                                     <li class="filter-mesh">
-                                        <input class="visually-hidden filter-input filter-input-radio" type="radio" name="group-mesh" value="fixed" >
+                                        <input class="visually-hidden filter-input filter-input-radio" type="radio" name="group-mesh" checked value="fixed" >
                                         Фиксированная
                                     </li>
                                     <li class="filter-mesh">
-                                        <input class="visually-hidden filter-input filter-input-radio" type="radio" name="group-mesh" value="rubber">
+                                        <input class="visually-hidden filter-input filter-input-radio" type="radio" name="group-mesh" checked value="rubber">
                                         Резиновая
                                     </li>
                                 </ul>
@@ -80,6 +78,7 @@
                             </ul>
                         </fieldset>
                             <button type="submit" class="filter-button button">Показать</button>
+                    </form>
             </section>
             <section class="catalog">
                 <h3 class="visually-hidden">Список шаблонов</h3>
@@ -90,39 +89,39 @@
                             <li>по типу</li>
                             <li>по названию</li>
                         </ul>
+                        <a></a>
                         <ul class="catalog-list">
                               <li class="catalog-item">
-                                  <h4>Sedona</h4>
                                   <img src="http://placehold.it/100x50" alt="Седона">
+                                  <div class="block1">
+                                      <p>SEDONA<br>Информационный сайт<br>для туристов</p>
+                                      <button type="submit" class="block1">9 900 РУБ.</button>
+                                  </div>
                               </li>
                               <li class="catalog-item">
-                                  <h4>Pink</h4>
                                   <img src="http://placehold.it/100x50" alt="Розовый">
                               </li>
                               <li class="catalog-item">
-                                  <h4>Borodinski</h4>
                                   <img src="http://placehold.it/100x50" alt="Бородинский">
                               </li>
                               <li class="catalog-item">
-                                  <h4>Mishka</h4>
                                   <img src="http://placehold.it/100x50" alt="Мишка">
                               </li>
                               <li class="catalog-item">
-                                  <h4>Teacher</h4>
                                   <img src="http://placehold.it/100x50" alt="Учитель">
                               </li>
                               <li class="catalog-item">
-                                  <h4>Кваст</h4>
                                   <img src="http://placehold.it/100x50" alt="Кваст">
                               </li>
                         </ul>
                         <ul class="pagination-list">
-                            <li class="pagination-item paginator-iten-current"><a href="#">1</a></li>
+                            <li class="pagination-item paginator-item-current"><a href="#">1</a></li>
                             <li class="pagination-item"><a href="#">2</a></li>
                             <li class="pagination-item"><a href="#">3</a></li>
                         </ul>
-                        <button type="submit" class="filter-button button">следующая</button>
+                        <a href="catalog-item">СЛЕДУЮЩАЯ</a>
                 </fieldset>
+
             </section>
             <section class="our address">
                 <img src="http://placehold.it/600x200" alt="Карта">
