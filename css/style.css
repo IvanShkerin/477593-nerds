@@ -1,9 +1,29 @@
-body {
-    font-size: 16px;
+html,body {
+    margin: 0;
+    padding: 0;
     font-family: "Roboto";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
     color: rgb(40, 49, 54);
-    line-height: 1.5;
+
+
+
+
+
 }
+
+.main-navigation   {
+  font-size: 16px;
+  line-height: 30px;
+  background-color: #ccd4d8;
+}
+
+.main-site  {
+  background-color: #ccd4d8;
+}
+
+
 
 .main-site div {
     font-size: 40px;
