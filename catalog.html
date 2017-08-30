@@ -3,14 +3,15 @@
     <head>
         <meta charset="utf-8">
             <title>HTML Academy:Каталог Нёрдс</title>
-                <link href="css/style.css" rel="stylesheet">
                 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+                <link href="css/normalize.css" rel="stylesheet">
+                <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <header class="main-header">
             <nav class="main-navigation">
                 <a class="main-header-logo" href="index.html">
-                    <img src="img\nerds-logo.png" alt="Логотип Nerds">
+                    <img src="img/nerds-logo.png" alt="Логотип Nerds">
                 </a>
                 <ul>
                     <li><a href="index.html">Студия</a></li>
@@ -44,15 +45,21 @@
                                 <ul>
 
                                     <li class="filter-mesh">
+                                        <label>
                                         <input class="visually-hidden filter-input filter-input-radio" type="radio" name="group-mesh" checked value="adapted">
+                                        </label>
                                         Адаптивная
                                     </li>
                                     <li class="filter-mesh">
+                                        <label>
                                         <input class="visually-hidden filter-input filter-input-radio" type="radio" name="group-mesh" checked value="fixed" >
+                                        </label>
                                         Фиксированная
                                     </li>
                                     <li class="filter-mesh">
+                                        <label>
                                         <input class="visually-hidden filter-input filter-input-radio" type="radio" name="group-mesh" checked value="rubber">
+                                        </label>
                                         Резиновая
                                     </li>
 
@@ -62,23 +69,33 @@
                             <legend>Особенности:</legend>
                                 <ul>
                                     <li class="filter-features">
+                                        <label>
                                         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" checked>
+                                        </label>
                                         Слайдер
                                     </li>
                                     <li class="filter-features">
+                                        <label>
                                         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="block" checked>
+                                        </label>
                                         Блок преимуществ
                                     </li>
                                     <li class="filter-features">
+                                        <label>
                                         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" checked>
+                                        </label>
                                         Новости
                                     </li>
                                     <li class="filter-features">
+                                        <label>
                                         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" checked>
+                                        </label>
                                         Галерея
                                     </li>
                                     <li class="filter-features">
+                                        <label>
                                         <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" checked>
+                                        </label>
                                         Корзина
                                     </li>
                                 </ul>
@@ -99,27 +116,52 @@
                         <a></a>
                         <ul class="catalog-list">
                             <li class="catalog-item">
-                                <img src="img\img-sedona.png" alt="Седона">
-                                <div class="block-sedona">
+                                <img src="img/img-sedona.png" alt="Седона">
+                                <div class="product">
                                     <p>SEDONA</p>
                                     <p>Информационный сайт<br>для туристов</p>
-                                    <button type="submit" class="block1">9 900 РУБ.</button>
+                                    <a href="block1">9 900 РУБ.</a>
                                 </div>
                             </li>
                             <li class="catalog-item">
-                                <img src="img\img-pink.png" alt="Розовый">
+                                <img src="img/img-pink.png" alt="Розовый">
+                                <div class="product">
+                                    <p>PINK APP</p>
+                                    <p>Продуктовый лендинг<br>приложения для IOS и Android</p>
+                                    <a href="block1">9 900 РУБ.</a>
+                                </div>
                             </li>
                             <li class="catalog-item">
-                                <img src="img\img-barbershop.png" alt="Бородинский">
+                                <img src="img/img-barbershop.png" alt="Бородинский">
+                                <div class="product">
+                                    <p>BARBERSHOP</p>
+                                    <p>Сайт салоны красоты.<br>Для мужчин, да.</p>
+                                    <a href="block1">9 900 РУБ.</a>
+                                </div>
                             </li>
                             <li class="catalog-item">
-                                <img src="img\img-mishka.png" alt="Мишка">
+                                <img src="img/img-mishka.png" alt="Мишка">
+                                <div class="product">
+                                    <p>MISHKA</p>
+                                    <p>Интернет-магазин<br>вязаных игрушек</p>
+                                    <a href="block1">9 900 РУБ.</a>
+                                </div>
                             </li>
                             <li class="catalog-item">
-                                <img src="img\img-aplus.png" alt="Учитель">
+                                <img src="img/img-aplus.png" alt="Учитель">
+                                <div class="product">
+                                    <p>A PLUS</p>
+                                    <p>Лендинг курсов повышения<br>квалификации</p>
+                                    <a href="block1">9 900 РУБ.</a>
+                                </div>
                             </li>
                             <li class="catalog-item">
-                                <img src="img\img-kvast.png" alt="Кваст">
+                                <img src="img/img-kvast.png" alt="Кваст">
+                                <div class="product">
+                                    <p>КВАСТ</p>
+                                    <p>Промо-сайт производителя<br>крафтового кваса</p>
+                                    <a href="block1">9 900 РУБ.</a>
+                                </div>
                             </li>
                         </ul>
                         <ul class="pagination-list">
@@ -131,10 +173,10 @@
                 </fieldset>
             </section>
             <section class="address-sedona">
-                <img src="img\layer2.png" alt="Карта">
+                <img src="img/layer2.png" alt="Карта">
                 <div class="block-address">
-                    <img src="img\white back.png" alt="Карта">
-                    <img src="img\map-marker.png" alt="Карта">
+                    <img src="img/whiteback.png" alt="Карта">
+                    <img src="img/map-marker.png" alt="Карта">
                     <p>NERDS DESIGN STUDIO<br>119186,Санкт-Петербург,<br>ул.Б.Конюшенная, д.19/8<br>тел. +7(812)275-75-75</p>
                     <button type="button" class="block1">НАПИШИТЕ НАМ</button>
                 </div>
