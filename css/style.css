@@ -6,22 +6,110 @@ html,body {
     line-height: 24px;
     font-weight: 400;
     color: rgb(40, 49, 54);
+}
+
+a {
+  text-decoration: none;
+}
 
 
 
+.main-header {
+    background-color: #eeeeee;
+}
 
+.main-site {
+    background-color: #eeeeee;
 
 }
 
-.main-navigation   {
-  font-size: 16px;
-  line-height: 30px;
-  background-color: #ccd4d8;
+.main-navigation a   {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.main-site  {
-  background-color: #ccd4d8;
+.site-navigation,
+.user-basket {
+  list-style: none;
 }
+
+.site-navigation a:hover,
+.user-basket a:hover {
+    color: red;
+}
+
+.site-navigation a:focus,
+.user-basket a:focus {
+    color: #cbbdbd;
+
+}
+
+.main-slogans p {
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
+
+}
+
+.filter-list,
+.features-list,
+.catalog-sorting,
+.catalog-item,
+.pagination-list,
+.social-button,
+.orders ul  {
+     list-style: none;
+}
+
+.websites {
+     text-align: left;
+}
+
+.application{
+    text-align: center;
+}
+
+.product {
+    text-align: right;
+}
+
+.services h3 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.about-us-slogan {
+    font-size: 45px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.our-slogan,
+.orders {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+ th {
+  font-size: 45px;
+  line-height: 10px;
+  color: #000000;
+}
+
+.friends {
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+}
+
+
+
+
+
+
+
 
 
 
