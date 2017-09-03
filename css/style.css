@@ -18,8 +18,13 @@ a {
     background-color: #eeeeee;
 }
 
-.main-site {
+.main-site h1 {
+    font-size: 55px;
+    line-height: 55px;
+    color: #000000;
     background-color: #eeeeee;
+    text-align: center;
+
 
 }
 
@@ -32,11 +37,12 @@ a {
 .site-navigation,
 .user-basket {
   list-style: none;
+  text-align: center;
 }
 
 .site-navigation a:hover,
 .user-basket a:hover {
-    color: red;
+    color: #f18578;
 }
 
 .site-navigation a:focus,
@@ -45,11 +51,18 @@ a {
 
 }
 
-.main-slogans p {
-  font-size: 55px;
-  line-height: 55px;
-  color: #000000;
+.nerds-logo  a:focus {
+    color: #cbbdbd;
+}
 
+.nerds-logo  a:hover {
+    color: #161414
+}
+
+.main-slogans p {
+    font-size: 55px;
+    line-height: 55px;
+    color: #000000;
 }
 
 .filter-list,
@@ -62,27 +75,20 @@ a {
      list-style: none;
 }
 
-.websites {
-     text-align: left;
-}
-
-.application{
-    text-align: center;
-}
-
-.product {
-    text-align: right;
-}
-
 .services h3 {
     font-size: 24px;
     line-height: 30px;
+    color: #000000;
 }
 
 .about-us-slogan {
     font-size: 45px;
     line-height: 45px;
     color: #000000;
+}
+
+.table-about-us {
+    text-align: right;
 }
 
 .our-slogan,
@@ -104,35 +110,27 @@ a {
   color: #000000;
 }
 
-
-
-
-
-
-
-
-
-
-.main-site div {
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-    line-height: 1;
-}
-
-h3 {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    line-height: 1.25;
-}
-
-h1 {
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-    line-height: 1;
-}
-
 legend {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    line-height: 1.667;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.catalog legend {
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.slogan-of-friendship {
+    font-size: 36px;
+    line-height: 36px;
+    color: #000000;
+    text-align: center;
+}
+
+.discount {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
 }
