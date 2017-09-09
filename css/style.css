@@ -6,6 +6,7 @@ html,body {
     line-height: 24px;
     font-weight: 400;
     color: rgb(40, 49, 54);
+
 }
 
 a {
@@ -16,6 +17,7 @@ a {
 
 .main-header {
     background-color: #eeeeee;
+
 }
 
 .main-site h1 {
@@ -33,6 +35,9 @@ a {
     line-height: 30px;
     color: #000000;
 }
+.main-site {
+    background-color: #eeeeee;
+}
 
 .nerds-logo:hover,
 .nerds-logo:focus {
@@ -43,10 +48,11 @@ a {
     opacity: 0.3;
 }
 
-.site-navigation,
-.user-basket {
+.site-navigation {
+
   list-style: none;
   text-align: center;
+  background-color: #eeeeee;
 }
 
 .site-navigation a:hover,
@@ -68,7 +74,7 @@ a {
     color: #161414
 }
 
-.learn-more-button {
+.button-red {
     display: block;
     padding: 10px 30px 10px 30px;
     width: 130px;
@@ -78,16 +84,12 @@ a {
     background-color: #fb565a;
 }
 
-
-
-
-
-.learn-more-button:hover,
-.learn-more-button:focus  {
+.button-red:hover,
+.button-red:focus  {
     background-color: #e74246;
 }
 
-.learn-more-button:active {
+.button-red:active {
     background-color: #d7373b;
     color: rgba(250, 250, 250, 0.3);
 }
@@ -105,25 +107,7 @@ a {
     opacity: 0.1;
 }
 
-.block1 {
-    display: block;
-    padding: 10px 30px 10px 30px;
-    width: 140px;
 
-    color: #ffffff;
-
-    background-color: #fb565a;
-}
-
-.block1:hover,
-.block1:focus  {
-    background-color: #e74246;
-}
-
-.block1:active {
-    background-color: #d7373b;
-    color: rgba(250, 250, 250, 0.3);
-}
 
 .order-button-red,
 .order-button-green,
@@ -242,6 +226,7 @@ a {
     font-size: 55px;
     line-height: 55px;
     color: #000000;
+    margin-top: 0;
 }
 
 .filter-list,
@@ -312,4 +297,60 @@ legend {
   font-size: 16px;
   line-height: 22px;
   text-align: center;
+}
+
+/*Сеточные стили*/
+
+html,
+body {
+    min-width: 1122px;
+    min-height: 1750px;
+
+
+}
+
+
+
+.main-header .container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+}
+
+.main-navigation {
+    outline: 1px solid red;
+}
+
+.container {
+
+
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+}
+
+.site-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 440px
+}
+
+.container-services {
+    display: flex;
+    margin-top: 77px;
+
+}
+
+.services {
+    display: flex;
+    
+}
+
+.about-us {
+
+    margin-bottom: 77px;
 }
